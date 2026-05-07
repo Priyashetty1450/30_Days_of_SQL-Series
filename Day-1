@@ -1,0 +1,69 @@
+# Day 1 – Introduction to DBMS, RDBMS & SQL Setup 🚀
+
+##📚 Topics Covered
+
+### ✅ What is DBMS?
+
+DBMS (Database Management System) is software used to store, manage, and organize data efficiently.
+
+### ✅ What is RDBMS?
+
+RDBMS (Relational Database Management System) stores data in the form of tables with rows and columns and supports relationships between tables.
+
+### ✅ Difference Between DBMS and RDBMS
+
+| DBMS                 | RDBMS                  |
+| -------------------- | ---------------------- |
+| Stores data as files | Stores data in tables  |
+| No relationships     | Supports relationships |
+| Less secure          | More secure            |
+| Example: XML         | Example: MySQL         |
+
+---
+
+## 🛠️ SQL & MySQL Setup
+
+Today I installed and configured:
+
+* SQL basics environment
+* MySQL Server
+* MySQL Workbench
+
+### ✅ Verified Installation
+
+Successfully connected MySQL and executed basic SQL commands.
+
+Example:
+sql
+SHOW DATABASES;
+
+## 💡 What I Learned
+
+* Basics of databases
+* Importance of RDBMS
+* Why SQL is used
+* How MySQL works
+* Installing and setting up MySQL environment
+
+## 🎯 Goal of This Series
+
+This **30 Days of SQL Challenge** is focused on:
+
+* SQL fundamentals
+* Database concepts
+* Query writing
+* Joins & relationships
+* Real-world database practice
+* Interview preparation
+
+---
+
+## 📅 Progress
+
+* [✅] Day 1 – DBMS, RDBMS & SQL Setup
+* [ ] Day 2 – SQL Datatypes & Creating Databases
+* [ ] Day 3 – CRUD Operations
+* [ ] Day 4 – Constraints
+* [ ] Day 5 – SQL Operators
+
+
