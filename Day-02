@@ -1,0 +1,82 @@
+# Day 2 – SQL SELECT Statements & Table Operations 🚀
+
+Welcome to **Day 2** of my **30 Days of SQL Challenge**.
+Today, I practiced writing basic SQL queries and learned how to manage databases and tables using SQL commands.
+
+# 📚 Topics Covered
+
+## ✅ SELECT Statement
+
+The `SELECT` statement is used to retrieve data from a database table.
+
+### Example:
+
+SELECT * FROM students;
+
+### Selecting Specific Columns
+
+SELECT name, age FROM students;
+
+# 🛠️ Database & Table Operations
+
+## ✅ CREATE DATABASE
+
+Used to create a new database.
+
+
+CREATE DATABASE college_db;
+
+## ✅ CREATE TABLE
+
+Used to create a new table inside a database.
+
+CREATE TABLE students (
+    id INT,
+    name VARCHAR(50),
+    age INT
+);
+
+
+## ✅ ALTER TABLE
+
+Used to modify an existing table.
+
+### Add Column Example
+
+
+ALTER TABLE students
+ADD email VARCHAR(100);
+
+
+## ✅ DROP TABLE
+
+Used to permanently delete a table.
+
+DROP TABLE students;
+
+# 💡 What I Learned
+
+* How to retrieve data using `SELECT`
+* Difference between selecting all columns and specific columns
+* Creating databases and tables
+* Modifying table structure using `ALTER`
+* Removing tables using `DROP`
+
+# 🎯 Key Takeaway
+
+Understanding table creation and query basics is the foundation of SQL.
+Today’s practice helped me understand how databases are structured and managed.
+
+# 📅 Progress
+
+* [✅] Day 1 – DBMS, RDBMS & SQL Setup
+* [✅] Day 2 – SELECT Statements & CREATE/ALTER/DROP
+* [ ] Day 3 – CRUD Operations
+* [ ] Day 4 – Constraints
+* [ ] Day 5 – SQL Operators
+
+# 🔥 30 Days of SQL Challenge
+
+Learning SQL step-by-step with consistency and hands-on practice.
+
+#30DaysOfSQL #SQL #MySQL #Database #LearningInPublic #100DaysOfCode
