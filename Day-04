@@ -1,0 +1,80 @@
+# Day 4 – ORDER BY, GROUP BY & Aggregate Functions 🚀
+Today, I learned how to sort data, group records, and perform calculations using aggregate functions in SQL.
+
+# 📚 Topics Covered
+
+## ✅ ORDER BY Clause
+
+The `ORDER BY` clause is used to sort data in ascending or descending order.
+
+### Ascending Order
+
+SELECT * FROM students
+ORDER BY age ASC;
+
+### Descending Order
+
+SELECT * FROM students
+ORDER BY marks DESC;
+
+# 📊 GROUP BY Clause
+
+The `GROUP BY` clause is used to group rows with similar values.
+
+SELECT department, COUNT(*)
+FROM employees
+GROUP BY department;
+
+# 🔢 Aggregate Functions
+
+Aggregate functions perform calculations on multiple rows and return a single value.
+
+## ✅ COUNT()
+
+Returns the total number of rows.
+
+SELECT COUNT(*) FROM students;
+
+## ✅ SUM()
+
+Returns the total sum of a column.
+
+SELECT SUM(salary) FROM employees;
+
+## ✅ AVG()
+
+Returns the average value.
+
+SELECT AVG(marks) FROM students;
+
+## ✅ MAX() and MIN()
+
+Returns highest and lowest values.
+
+SELECT MAX(marks), MIN(marks)
+FROM students;
+
+# 💡 What I Learned
+
+* Sorting records using `ORDER BY`
+* Grouping similar data using `GROUP BY`
+* Using aggregate functions for calculations
+* Writing basic analytical SQL queries
+
+# 🎯 Key Takeaway
+
+Today’s concepts are very important for data analysis and reporting because they help in organizing and summarizing large amounts of data efficiently.
+
+# 📅 Progress
+
+* [ ✅] Day 1 – DBMS, RDBMS & SQL Setup
+* [ ✅] Day 2 – SELECT Statements & CREATE/ALTER/DROP
+* [ ✅] Day 3 – INSERT, UPDATE & DELETE
+* [ ✅] Day 4 – ORDER BY, GROUP BY & Aggregate Functions
+* [ ] Day 5 – Constraints & Operators
+
+# 🔥 30 Days of SQL Challenge
+
+Building strong SQL fundamentals one day at a time with consistency and practice.
+
+
